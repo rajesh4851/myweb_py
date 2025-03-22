@@ -92,11 +92,41 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
+/* 
+.logo {
+  max-width: 150px; /* Adjust the width as needed */
+  max-height: 1100px; /* Adjust the height as needed */
+  /* width: auto;
+  height: auto; */ */
+  /* display: block; */
+  /* border: 1px solid #ff000d; /* Temporary border for debugging */
+
+/* } */ */
+/* .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+} */
 
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(86, 156, 214, 0.5);
 }
 
 .nav {

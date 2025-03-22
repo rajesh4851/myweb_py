@@ -6,7 +6,9 @@
     <title>{% block title %}AI Data Engineering Portfolio{% endblock %}</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+    <!-- <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}"> -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,8 +27,15 @@
     <!-- Header -->
     <header class="header">
         <div class="container header-container">
-            <a href="#" class="logo">Portfolio</a>
-            
+            <!-- <a href="#" class="logo">Portfolio</a> -->
+            <!-- <a href="#">
+                <img src="{{ url_for('static', filename='images/Original Logo.png') }}" >
+                <img src="{{ url_for('static', filename='images/logo_1194.png') }}" alt="Logo" class="logo">
+            </a> -->
+            <a href="#" class="logo">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="AI Data Eng Logo" class="logo-image" id="site-logo">
+                <!-- <span>AI Data Eng</span> -->
+            </a>
             <!-- <nav class="nav">
                 <a href="#hero" class="nav-link">Home</a>
                 <a href="#projects" class="nav-link">Projects</a>
